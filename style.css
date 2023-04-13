@@ -106,9 +106,10 @@ section{
   padding:4% 4% 4% 4% ;
   background-color: rgb(69, 158, 225);
   justify-content: space-around;
+  color: aliceblue;
 }
 button{
-  border-radius: 10%;
+  border-radius: 10% ;
   width: 10rem;
   height:2rem;
 }
