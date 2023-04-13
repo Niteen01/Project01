@@ -18,24 +18,27 @@
   list-style: none;
 }
 section{
-  padding: 0 10em;
+  padding: 0 10em 7em;
   background-color: antiquewhite;
 
 }
 
 .header{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .texts{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: left;
+  max-width: 40%;
 }
-.texts.h1{
-  font-size: xx-large;
+.heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xxx-large;
+  font-weight: 500;
 }
 .image .image-bg{
   height: 15em;
