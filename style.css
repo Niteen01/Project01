@@ -91,10 +91,24 @@ section{
   padding: 10% 0 0 0 ;
   justify-content: center;
   font-style: italic;
+  font-size: larger;
 }
 .auther{
   padding-top: 1rem;;
  text-align: right;
  font-size: large;
  font-weight: 900;
+}
+.blue-box{
+  display: flex;
+  margin-top: 10%;
+  border-radius: 3%;
+  padding:4% 4% 4% 4% ;
+  background-color: rgb(69, 158, 225);
+  justify-content: space-around;
+}
+button{
+  border-radius: 10%;
+  width: 10rem;
+  height:2rem;
 }
