@@ -80,3 +80,21 @@ section{
 .box{
   justify-content: center;
 }
+.third_sec{
+  padding-left: 10%;
+  background-color: #c0b7b7;
+}
+.quote-container{
+  padding-top: 10rem;
+}
+.quote{
+  padding: 10% 0 0 0 ;
+  justify-content: center;
+  font-style: italic;
+}
+.auther{
+  padding-top: 1rem;;
+ text-align: right;
+ font-size: large;
+ font-weight: 900;
+}
