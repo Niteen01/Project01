@@ -2,6 +2,9 @@
     margin:0px;
     pad:0px;
 }
+section{
+  padding: 0 10em 3em;
+}
 .nav_bar{
   display: flex;
   justify-content: space-between;
@@ -17,13 +20,14 @@
   text-decoration: none;
   list-style: none;
 }
-section{
+.first_sec{
   padding: 0 10em 7em;
   background-color: antiquewhite;
 
 }
 
 .header{
+  padding: 4rem 0 0 0;
   display: flex;
   justify-content: space-between;
 }
@@ -42,11 +46,37 @@ section{
 }
 .image .image-bg{
   height: 15em;
-  width:20em;
+  width:25em;
   background-color: blue;
   display: flex;
   justify-content: space-around;
 }
 .button{
   border-radius: 4px;
+}
+.random_info{
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: larger;
+  font-weight: 800;
+}
+.box-pic{
+  border-radius: 1rem;
+  height: 8rem;
+  width: 7rem;
+  border-style: solid;
+  border-width: 15px rgb(9, 9, 215);
+}
+.box_container{
+  display: flex;
+  justify-content: space-around;
+  margin: 0rem 3rem 0rem 3rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.box{
+  justify-content: center;
 }
