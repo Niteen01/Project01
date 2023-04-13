@@ -18,7 +18,32 @@
   list-style: none;
 }
 section{
-  padding: 0 3em;
+  padding: 0 10em;
   background-color: antiquewhite;
-  
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+}
+
+.texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.texts.h1{
+  font-size: xx-large;
+}
+.image .image-bg{
+  height: 15em;
+  width:20em;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+.button{
+  border-radius: 4px;
 }
