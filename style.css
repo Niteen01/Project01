@@ -11,6 +11,10 @@ section{
   align-items: center;
   height: 4em;
 }
+.nav-bar .left h1{
+  font-size: 24px;
+  color: #F9FAF8;
+}
 .right ul{
   display: flex;
   justify-content: space-between;
@@ -19,13 +23,13 @@ section{
 .right ul li{
   text-decoration: none;
   list-style: none;
-  font-size: larger;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 .first_sec{
   color:aliceblue;
   padding: 0 17em 7em;
-  background-color: rgb(40, 51, 75);
-
+  background-color: #1F2937;
 }
 
 .header{
@@ -40,7 +44,7 @@ section{
   width: 8rem;
   height:2.5rem;
   border-radius: 10px;
-  border-color:rgb(53, 103, 229);
+  border-color:#3882F6;
 }
 .texts{
   display: flex;
@@ -51,8 +55,8 @@ section{
 }
 .heading{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: xxx-large;
-  font-weight: 500;
+  font-size: 48px;
+  font-weight: bolder;
 }
 .image .image-bg{
   padding: 20% 0 20% 0;
@@ -62,60 +66,84 @@ section{
   display: flex;
   justify-content: space-around;
 }
-
 .random_info{
-  padding: 2rem 0 2rem 0;
+  padding: 2.5rem 0 2.5rem 0;
+  font-size: 30px;
+  font-weight:900;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  text-align: center;
-  font-size: larger;
-  font-weight: 800;
+  color: #1F2937;
+  font-family:Arial, Helvetica, sans-serif;
 }
-.box-pic{
+.bigger-container{
+  padding: 0 2rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  min-height: 2rem;
+  min-width: 2rem;
+}
+.boxes{
+  margin: 0 1rem 0 1rem;
+  height: 10rem;
+  width: 80%;
+  color: #3882F6;
+  border: solid 5px;
   border-radius: 1rem;
-  height: 8rem;
-  width: 7rem;
-  border-style: solid;
-  border-width: 15px rgb(9, 9, 215);
 }
-.box_container{
+.about-box h4{
+  margin: 0 0.7rem 0 0.7rem;
+  font-size: 17px;
   display: flex;
-  justify-content: space-around;
-  margin: 0rem 3rem 0rem 3rem;
+  padding: 0.5rem 1.2rem 0.5rem 0.8rem;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
 }
-.box{
-  justify-content: center;
-}
+
+
+
+
+
+
 .third_sec{
-  background-color: #e9e0e0b5;
+  background-color: #E5E7EB;
 }
 .quote-container{
   padding-top: 10rem;
 }
 .quote{
-  padding: 10% 0 0 0 ;
+
+  padding: 10% 10% 0 10% ;
   justify-content: center;
-  font-style: italic;
-  font-size: larger;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-style: light italic;
+  font-weight: lighter;
+  font-size: 29px;
+  color:#1F2937
 }
 .auther{
-  padding-top: 1rem;;
+  padding-right: 5rem;;
  text-align: right;
- font-size: large;
- font-weight: 900;
+ font-size: 25px;
+ font-weight: bolder;
+ font-family: sans-serif;
 }
 .blue-box{
   display: flex;
+  font-family: sans-serif;
   margin-top: 10%;
-  border-radius: 3%;
-  padding:4% 4% 4% 4% ;
-  background-color: rgb(53, 103, 229);
-  justify-content: space-around;
+  border-radius: 7px;
+  padding:6% 10% 6% 10% ;
+  background-color: #3882F6;
+  justify-content: space-between;
   color: aliceblue;
 }
+.blue-box h4{
+  padding-top: 0.1rem;
+  color: #e7e1e1ef;
+}
 button{
-  background-color: rgb(53, 103, 229);
+  background-color: #3882F6;
   font-size: larger;
   color: aliceblue;
   width: 8rem;
@@ -123,4 +151,15 @@ button{
   border-radius: 10px;
   border-width: 3px;
   border-color: #fff;
+}
+.fifth-sec{
+  background-color: #1F2937;
+  padding: 3rem 0 3rem 0;
+  color:rgb(216, 212, 212);
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 17px;
 }
