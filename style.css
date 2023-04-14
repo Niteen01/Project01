@@ -3,7 +3,7 @@
     pad:0px;
 }
 section{
-  padding: 0 10em 3em;
+  padding: 0 17em 7em;
 }
 .nav_bar{
   display: flex;
@@ -19,10 +19,12 @@ section{
 .right ul li{
   text-decoration: none;
   list-style: none;
+  font-size: larger;
 }
 .first_sec{
-  padding: 0 10em 7em;
-  background-color: antiquewhite;
+  color:aliceblue;
+  padding: 0 17em 7em;
+  background-color: rgb(40, 51, 75);
 
 }
 
@@ -31,7 +33,15 @@ section{
   display: flex;
   justify-content: space-between;
 }
-
+.header .texts button{
+  background-color: rgb(53, 103, 229);
+  font-size: larger;
+  color: aliceblue;
+  width: 8rem;
+  height:2.5rem;
+  border-radius: 10px;
+  border-color:rgb(53, 103, 229);
+}
 .texts{
   display: flex;
   flex-direction: column;
@@ -45,15 +55,14 @@ section{
   font-weight: 500;
 }
 .image .image-bg{
-  height: 15em;
-  width:25em;
-  background-color: blue;
+  padding: 20% 0 20% 0;
+  height:2em;
+  width:30em;
+  background-color: rgba(179, 179, 193, 0.795);
   display: flex;
   justify-content: space-around;
 }
-.button{
-  border-radius: 4px;
-}
+
 .random_info{
   padding: 2rem 0 2rem 0;
   display: flex;
@@ -74,15 +83,12 @@ section{
   display: flex;
   justify-content: space-around;
   margin: 0rem 3rem 0rem 3rem;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 .box{
   justify-content: center;
 }
 .third_sec{
-  padding-left: 10%;
-  background-color: #c0b7b7;
+  background-color: #e9e0e0b5;
 }
 .quote-container{
   padding-top: 10rem;
@@ -104,12 +110,17 @@ section{
   margin-top: 10%;
   border-radius: 3%;
   padding:4% 4% 4% 4% ;
-  background-color: rgb(69, 158, 225);
+  background-color: rgb(53, 103, 229);
   justify-content: space-around;
   color: aliceblue;
 }
 button{
-  border-radius: 10% ;
-  width: 10rem;
-  height:2rem;
+  background-color: rgb(53, 103, 229);
+  font-size: larger;
+  color: aliceblue;
+  width: 8rem;
+  height:2.5rem;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #fff;
 }
