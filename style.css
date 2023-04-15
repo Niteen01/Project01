@@ -82,6 +82,10 @@ section{
   min-height: 2rem;
   min-width: 2rem;
 }
+.container{
+  max-width: 25%;
+  justify-content: center;
+}
 .boxes{
   margin: 0 1rem 0 1rem;
   height: 10rem;
@@ -98,13 +102,8 @@ section{
   align-items: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: lighter;
+  text-align: center;
 }
-
-
-
-
-
-
 .third_sec{
   background-color: #E5E7EB;
 }
@@ -162,4 +161,166 @@ button{
   justify-content: center;
   font-family: sans-serif;
   font-size: 17px;
+}
+
+/*media* for phones*/
+
+@media only screen and (max-width:700px){
+  .first_sec , .second_sec , .third_sec , .fourth-sec , .fifth-sec{
+    padding: 0rem 1rem 0 1rem;
+    font-size: xx-small;
+  }
+  .right ul li{
+    font-size: 8px;
+  }
+  .header{
+    display: block;
+    padding: 1rem 0 0 0;
+    justify-content: space-between;
+
+  }
+  .texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: fit-content;
+  }
+
+  .heading{
+    font-size: x-large;
+    font-size: 1.3rem;
+    padding-bottom: 0.7rem;
+  }
+  .texts h5{
+    font-size: large;
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 1rem;
+  }
+  button{
+    max-width: 4rem;
+    max-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  .container{
+    max-width: 80%;
+    justify-content: center;
+  }
+  .image {
+    display: flex;
+   position: relative ;
+   justify-content: center;
+   padding-bottom: 1rem;
+  }
+  .random_info{
+    font-size: 1.4rem;
+    padding: 1.5rem 0 1.5rem 0
+  }
+  .bigger-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .quote h3{
+    font-size: small;
+  }
+  .auther{
+    font-size: small;
+    padding-bottom: 2rem;
+  }
+  .blue-box{
+    margin-bottom: 2rem;
+  }
+  .fifth-sec{
+    padding: 1rem 1rem 1rem 1rem;
+    max-width: 100%;
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+  }
+}
+
+/* for tablets*/
+
+@media  only screen and (min-width:700px) and (max-width:1354px){
+    .first_sec , .second_sec , .third_sec , .fourth-sec , .fifth-sec{
+      padding: 0rem 1rem 0 1rem;
+      font-size: small;
+    }
+    .right ul li{
+      font-size: 15px;
+    }
+    .header{
+      display: block;
+      padding: 1rem 0 0 0;
+      justify-content: space-between;
+  
+    }
+    .texts{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      max-width: fit-content;
+    }
+  
+    .heading{
+      font-size: 3rem;
+      padding-bottom: 0.7rem;
+    }
+    .texts h5{
+      font-size: large;
+      text-align: center;
+      font-family: sans-serif;
+      padding-bottom: 1rem;
+    }
+    button{
+      max-width: 8rem;
+      max-height: 5rem;
+      margin-bottom: 1rem;
+    }
+    .image {
+      min-width: 80%;
+      display: flex;
+     position: relative ;
+     justify-content: center;
+     padding-bottom: 2rem;
+    }
+    .random_info{
+      min-width: 100%;
+      justify-content: center;
+      font-size: 3rem;
+      padding: 1.5rem 0 1.5rem 0
+    }
+    .bigger-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .container{
+      max-width: 30%;
+    }
+    .quote h3{
+      font-size: 1.2rem;
+    }
+    .auther{
+      font-size: 1rem;
+      padding-bottom: 2rem;
+    }
+    .blue-box{
+      margin-bottom: 2rem;
+    }
+    .fifth-sec{
+      padding: 1rem 1rem 1rem 1rem;
+      max-width: 100%;
+    }
+    .copyright{
+      display: flex;
+      justify-content: center;
+      font-size: smaller;
+    }
+
 }
